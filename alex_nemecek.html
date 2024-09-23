@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel = "stylesheet" href = "css/style.css">
+      <link rel = "stylesheet" href = "css/reset.css">
+      
+
+      <title>Alex Nemecek</title>
+   </head>
+   <body>
+
+   <header>
+      <h1>Alex Nemecek</h1>
+      <!--Athlete would input headshot-->
+      <img src="path/athlete_img.jpg" alt="Athlete headshot"> 
+   </header>
+
+      <section id= "athlete-sr-table">
+         <h2>Athlete's Seasonal Records (SR) per Year</h2>
+            <table>
+                  <thead>
+                     <tr>
+                        <th> Year </th>
+                        <th> Season Record (SR)</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                  
+                     <tr>
+                        <th>9</th>
+                        <th>20:02.1</th>
+                     </tr>                  
+               
+                     <tr>
+                        <th>10</th>
+                        <th>21:20.4</th>
+                     </tr>                  
+               
+                     <tr>
+                        <th>11</th>
+                        <th>18:24.0PR *</th>
+                     </tr>                  
+               
+                     <tr>
+                        <th>12</th>
+                        <th>19:21.4</th>
+                     </tr>                  
+                                  
+                  </tbody>
+                     </section>
+                     
+                     <section id="athlete-result-table">
+                        <label for="sort">Sort race data:</label>
+
+                        <!-- sort data using JavaScript if sort filter is selected
+                        this section should filter based on time, date, or place-->
+                        <label for="race-data-sort"> Sort races by:</label>
+                        <select id="race-data-sort">
+                           <option value="time-fastest">Time: Fastest first</option>
+                           <option value="time-slowest">Time: Slowest first</option>
+                           <option value="date-latest">Date: Latest first</option>
+                           <option value="date-earliest">Date: Earliest first</option>
+                           <option value="place-highest">Place: Highest first</option>
+                           <option value="place-lowest">Place: Lowest first</option>
+                        </select>
+
+                        <h2>Race Results</h2>
+                           <table id="athlete-table">
+                              <thead>
+                                 <tr>
+                                    <th>Race</th>
+                                    <th>Athlete Time</th>
+                                    <th>Athlete Place</th>
+                                 </tr>
+                              </thead>
+
+                              <tbody>
+                  
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Bret Clements Bath Invitational (J.V.)</a>
+                                    </td>
+                                    <td>19:21.8</td>
+                                    <td>31 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">SEC Jamboree #1 (Junior Varsity)</a>
+                                    </td>
+                                    <td>19:21.4 SR</td>
+                                    <td>16 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Early Bird Open (Open Men's 5K)</a>
+                                    </td>
+                                    <td>19:36.6</td>
+                                    <td>62 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Bret Clements Bath Invitational (J.V.)</a>
+                                    </td>
+                                    <td>19:09.9</td>
+                                    <td>20 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">SEC-HS Jamboree 1 (Red/White Varsity Boys)</a>
+                                    </td>
+                                    <td>19:08.8</td>
+                                    <td>92 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">55th Holly/Duane Raffin Festival of Races (D1 Boys)</a>
+                                    </td>
+                                    <td>19:07.3</td>
+                                    <td>118 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Jackson Invitational - Varsity (Orange Division (1000 + enrolment))</a>
+                                    </td>
+                                    <td>18:26.7</td>
+                                    <td>186 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">SEC Jamboree 2 (Red) (Varsity (top 10))</a>
+                                    </td>
+                                    <td>18:24.0PR</td>
+                                    <td>61 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">2023 Portage XC Invitational (Division 1 Reserve)</a>
+                                    </td>
+                                    <td>18:24.9</td>
+                                    <td>64 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">39th Fr Gabriel Richard Cross Country Invite (Varsity Large School)</a>
+                                    </td>
+                                    <td>19:47.0</td>
+                                    <td>124 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">SEC HS Championship (All Division Reserve)</a>
+                                    </td>
+                                    <td>19:21.8</td>
+                                    <td>43 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Post Regional Open Meet (PROM) - Springfiled Oaks</a>
+                                    </td>
+                                    <td>18:44.2</td>
+                                    <td>18 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">22 Saline Early Bird</a>
+                                    </td>
+                                    <td>21:20.4 SR</td>
+                                    <td>168 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Mustang Invite (9/10 Boys)</a>
+                                    </td>
+                                    <td>22:45.3</td>
+                                    <td>117 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Jackson Invitational - Varsity (Division 1 Varsity)</a>
+                                    </td>
+                                    <td>21:01.4</td>
+                                    <td>197 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">SEC-HS Jamboree 2 (Red) (Reserve Boys)</a>
+                                    </td>
+                                    <td>21:10.8</td>
+                                    <td>76 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">2021 Portage Cross Country Invitational (Division 1 Reserve)</a>
+                                    </td>
+                                    <td>20:02.1 SR</td>
+                                    <td>210 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">37th Annual Gabriel Richard XC Invitational (JV Large School Div)</a>
+                                    </td>
+                                    <td>20:03.7</td>
+                                    <td>92 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">SEC-HS Championship (All Division Reserve)</a>
+                                    </td>
+                                    <td>20:07.9</td>
+                                    <td>109 </td>
+                                 </tr>
+      
+                                 <tr class="result-row">
+                                    <td>
+                                       <a href="Race Link">Brighton PROM</a>
+                                    </td>
+                                    <td>20:25.8</td>
+                                    <td>62 </td>
+                                 </tr>
+      
+                              </tbody>
+
+                        </table>
+                     </section>
+               </body>
+         </html>
+   
