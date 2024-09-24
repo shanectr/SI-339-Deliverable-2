@@ -76,25 +76,27 @@ def gen_athlete_page(data, outfile):
       html_content += sr_row
 
    html_content += '''                   
-                  </tbody>
+                </tbody>
+                  </table>
                      </section>
-                     
-                     <section id="athlete-result-table">
-                        <label for="sort">Sort race data:</label>
-
-                        <!-- sort data using JavaScript if sort filter is selected
-                        this section should filter based on time, date, or place-->
-                        <label for="race-data-sort"> Sort races by:</label>
-                        <select id="race-data-sort">
-                           <option value="time-fastest">Time: Fastest first</option>
-                           <option value="time-slowest">Time: Slowest first</option>
-                           <option value="date-latest">Date: Latest first</option>
-                           <option value="date-earliest">Date: Earliest first</option>
-                           <option value="place-highest">Place: Highest first</option>
-                           <option value="place-lowest">Place: Lowest first</option>
-                        </select>
 
                         <h2>Race Results</h2>
+
+                        <section id="athlete-result-table">
+                            <label for="sort">Sort race data:</label>
+
+                            <!-- sort data using JavaScript if sort filter is selected
+                            this section should filter based on time, date, or place-->
+                            <label for="race-data-sort"> Sort races by:</label>
+                            <select id="race-data-sort">
+                            <option value="time-fastest">Time: Fastest first</option>
+                            <option value="time-slowest">Time: Slowest first</option>
+                            <option value="date-latest">Date: Latest first</option>
+                            <option value="date-earliest">Date: Earliest first</option>
+                            <option value="place-highest">Place: Highest first</option>
+                            <option value="place-lowest">Place: Lowest first</option>
+                            </select>
+
                            <table id="athlete-table">
                               <thead>
                                  <tr>
